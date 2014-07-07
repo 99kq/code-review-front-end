@@ -1,4 +1,5 @@
-# <!-- Code Review Checklist for Front-End Developers --> 前端开发者的代码回顾清单
+<!-- # Code Review Checklist for Front-End Developers -->
+# 前端开发者的代码回顾清单
 
 
 <!-- The goal is not to define a formal definition of practices for code review but to give some checklist for reviewers.  -->
@@ -11,7 +12,8 @@
 因为代码的作者没有进行自我回顾。所以开发者需要一种新的方式——很显然他们可以持续提炼并改进代码。
 
 
-## <!-- Philosophy --> 理念
+<!-- ## Philosophy -->
+## 理念
 
 
     代码回顾对事不对人 (Code Review is about the code not about the coder)
@@ -34,7 +36,8 @@
 
 
 
-## <!-- Checklist --> 清单
+<!-- ## Checklist -->
+## 清单
 
 <!-- The checklist is a set of points that are checked during code review.  -->
 这里的清单是指一套代码回顾时遵循的要点集合。
@@ -43,7 +46,8 @@
 同时这份清单也会帮助开发者理解哪些东西需要回顾。
 
 
-### 0. <!-- Style and Code Guidelines --> 编码规范
+<!-- ### 0. Style and Code Guidelines -->
+### 0. 编码规范
 
 <!-- In fact, this item is value 0 because it does not fit in the checklist itself: it has to be followed everytime. -->
 这件事情排在步骤 0，因为实际上它并不算在清单本身的范畴内：编码规范是需要时刻遵守的。
@@ -51,7 +55,8 @@
 <!-- It means each developer has to follow the defined Coding Guidelines. -->
 也就是说，每一名开发者都必须遵循既定的编码规范。
 
-### 1. <!-- Code Quality --> 代码质量
+<!-- ### 1. Code Quality -->
+### 1. 代码质量
 
 <!-- The code quality allows two things:  -->
 代码质量能够确保：
@@ -65,13 +70,15 @@
 前端团队可以通过 [JSHint](http://www.jshint.com/) 或 [Plato](https://github.com/es-analysis/plato) 等类似的工具来监控 JavaScript 代码的质量。
  
  
-### 2. <!-- Consistency --> 一致性
+<!-- ### 2. Consistency -->
+### 2. 一致性
 
 <!-- The reviewer obviously ensures that the written code responds well to the problem of features or defects. -->
 回顾者要确保写出的代码能够满足需求，正常工作。
 
 
-### 3. <!-- Simple --> 简单
+<!-- ### 3. Simple -->
+### 3. 简单
 
 <!-- The reviewer ensures that the code gets straight to the point.  -->
 回顾者要确保代码直接有效的解决了问题。
@@ -86,7 +93,8 @@
 基本上，越是复杂的地方，就越要简化。
 
 
-### 4. <!-- Maintainability --> 可维护性
+<!-- ### 4. Maintainability -->
+### 4. 可维护性
 
 <!-- The reviewer ensures that another developer can change the code in a small time.  -->
 回顾者确保另一名开发者也可以对现有代码进行快速修改。
@@ -101,7 +109,8 @@ HTML 和 CSS 选择器也同样如此。我们必须能够理解 class 或方法
 还要确保**一个方法做一件事**的原则。
 
 
-### 5. <!-- Performance --> 性能
+<!-- ### 5. Performance -->
+### 5. 性能
 
 <!-- Performance is not limited to the minification of js or css files and use sprites for images.  -->
 性能问题不仅限于 js 或 css 文件的压缩比率以及对图片精灵的使用。
@@ -115,7 +124,8 @@ jsPerf 是一个非常棒的工具，它可以在线测试一段代码在各种�
 <!-- Example : [Comparing the performance difference of varied jQuery 1.7 selectors ?](http://jsperf.com/id-vs-class-vs-tag-selectors/2) -->
 例如 : [比较 jQuery 1.7 中各种选择器的性能差异](http://jsperf.com/id-vs-class-vs-tag-selectors/2)
 
-## <!-- Deep diving --> 延伸阅读
+<!-- ## Deep diving -->
+## 延伸阅读
 
 <!-- * CodeShip Code Review: [http://blog.codeship.io/2013/08/22/the-codeship-workflow-part-2-pull-requests-and-code-review.html](http://blog.codeship.io/2013/08/22/the-codeship-workflow-part-2-pull-requests-and-code-review.html) -->
 * CodeShip 的代码回顾: [http://blog.codeship.io/2013/08/22/the-codeship-workflow-part-2-pull-requests-and-code-review.html](http://blog.codeship.io/2013/08/22/the-codeship-workflow-part-2-pull-requests-and-code-review.html)
@@ -129,11 +139,14 @@ jsPerf 是一个非常棒的工具，它可以在线测试一段代码在各种�
 <!-- * Hadoop Code Review: [https://wiki.apache.org/hadoop/CodeReviewChecklist](https://wiki.apache.org/hadoop/CodeReviewChecklist) -->
 * Hadoop 的代码回顾: [https://wiki.apache.org/hadoop/CodeReviewChecklist](https://wiki.apache.org/hadoop/CodeReviewChecklist)
 
-## <!-- Authors and contributors --> 作者与贡献者
+<!-- ## Authors and contributors -->
+## 作者与贡献者
 
-### <!-- Current --> 当前
+<!-- ### Current -->
+### 当前
 * [Yassine Azzout](http://yass.io) (创建者)
 * [勾三股四](http://jiongks.name) (中文翻译)
 
-### <!-- License --> 协议
+<!-- ### License -->
+### 协议
 [MIT license](http://www.opensource.org/licenses/Mit)
